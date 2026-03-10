@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Fitness Tracker</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Fitness Tracker</h1>
+
+<button onclick="addWorkout()">Add Workout</button>
+
+<ul id="workouts"></ul>
+
+<script src="app.js"></script>
+
+</body>
+</html>
